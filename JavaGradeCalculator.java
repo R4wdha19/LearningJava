@@ -6,11 +6,12 @@ public class JavaGradeCalculator {
         calculator();
     }
 
+
     public static void calculator() {
         Scanner input = new Scanner(System.in);
         System.out.println("Please Enter The Score To Get The Grade ");
         int score = input.nextInt();
-        if (score >= 90 && score<100) {
+        if (score >= 90 && score <= 100) {
             System.out.println("Excellent You Got A");
         } else if (score >= 80 && score < 90) {
             System.out.println("Great Work You Got B");
@@ -18,9 +19,11 @@ public class JavaGradeCalculator {
             System.out.println("Good Work You Got C");
         } else if (score >= 60 && score < 70) {
             System.out.println("Need To Study More ! You Got D");
+        } else if (score > 100) {
+            System.out.println("Be Serious ! No one will ever get more than 100 ");
         } else {
             System.out.println("Sorry you have failed");
         }
     }
-
 }
+
