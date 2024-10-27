@@ -4,6 +4,7 @@ public class JavaGradeCalculator {
 
     public static void main(String[] args) {
         calculator();
+        numberTypeChecker();
     }
 
 
