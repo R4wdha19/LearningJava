@@ -25,5 +25,12 @@ public class JavaGradeCalculator {
             System.out.println("Sorry you have failed");
         }
     }
+
+    public static void numberTypeChecker(){
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please Enter The Number To Be Checked");
+
+
+    }
 }
 
