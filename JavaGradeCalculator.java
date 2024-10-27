@@ -26,9 +26,10 @@ public class JavaGradeCalculator {
         }
     }
 
-    public static void numberTypeChecker(){
+    public static void numberTypeChecker() {
         Scanner input = new Scanner(System.in);
         System.out.println("Please Enter The Number To Be Checked");
+        int number = input.nextInt();
 
 
     }
