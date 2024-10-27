@@ -30,7 +30,13 @@ public class JavaGradeCalculator {
         Scanner input = new Scanner(System.in);
         System.out.println("Please Enter The Number To Be Checked");
         int number = input.nextInt();
-
+        if (number == 0) {
+            System.out.println("0 is by default Even");
+        } else if (number/2 == 0) {
+            System.out.println("Number is Even");
+        } else {
+            System.out.println("Number is Odd");
+        }
 
     }
 }
