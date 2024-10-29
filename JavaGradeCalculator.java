@@ -1,15 +1,15 @@
 import java.util.Scanner;
 
 public class JavaGradeCalculator {
+    static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-       calculator();
+        calculator();
         numberTypeChecker();
     }
 
 
     public static void calculator() {
-        Scanner input = new Scanner(System.in);
         System.out.println("Please Enter The Score To Get The Grade ");
         int score = input.nextInt();
         if (score >= 90 && score <= 100) {
@@ -28,7 +28,6 @@ public class JavaGradeCalculator {
     }
 
     public static void numberTypeChecker() {
-        Scanner input = new Scanner(System.in);
         System.out.println("Please Enter The Number To Be Checked");
         int number = input.nextInt();
         if (number == 0) {
@@ -41,7 +40,8 @@ public class JavaGradeCalculator {
 
     }
 
-    public static void maxOfThreeNumber(){
+    public static void maxOfThreeNumber() {
+
 
     }
 }
