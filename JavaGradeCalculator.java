@@ -43,7 +43,7 @@ public class JavaGradeCalculator {
     }
 
     public static void maxOfThreeNumber() {
-        List<Integer> numbers = new ArrayList<>();
+        List<Integer> numbers = new ArrayList<>(3);
 
     }
 }
