@@ -40,5 +40,9 @@ public class JavaGradeCalculator {
         }
 
     }
+
+    public static void maxOfThreeNumber(){
+
+    }
 }
 
