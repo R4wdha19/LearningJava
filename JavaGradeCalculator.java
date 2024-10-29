@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class JavaGradeCalculator {
@@ -41,7 +43,7 @@ public class JavaGradeCalculator {
     }
 
     public static void maxOfThreeNumber() {
-
+        List<Integer> numbers = new ArrayList<>();
 
     }
 }
