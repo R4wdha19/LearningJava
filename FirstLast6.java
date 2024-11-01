@@ -14,9 +14,9 @@ public class FirstLast6 {
             System.out.println("TRUE");
         } else if (secondNumbersSet[0] == target || secondNumbersSet[secondNumbersSet.length - 1] == target) {
             System.out.println("TRUE");
-        } else if (thirdNumbersSet[0] == target || thirdNumbersSet[secondNumbersSet.length - 1] == target) {
+        } else if (thirdNumbersSet[0] == target || thirdNumbersSet[thirdNumbersSet.length - 1] == target) {
             System.out.println("TRUE");
-        } else if (fourthNumbersSet[0] == target || fourthNumbersSet[secondNumbersSet.length - 1] == target) {
+        } else if (fourthNumbersSet[0] == target || fourthNumbersSet[fourthNumbersSet.length - 1] == target) {
             System.out.println("TRUE");
         } else {
             System.out.println("FALSE");
