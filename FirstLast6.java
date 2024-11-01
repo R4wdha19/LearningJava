@@ -2,6 +2,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FirstLast6 {
+    public static void main(String[]  args){
+        firstLast6();
+    }
 
     public static void firstLast6() {
         int[] firstNumbersSet = {1, 2, 3, 4, 5, 6};
