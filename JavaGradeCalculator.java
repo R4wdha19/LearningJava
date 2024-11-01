@@ -27,6 +27,7 @@ public class JavaGradeCalculator {
         } else {
             System.out.println("Sorry you have failed");
         }
+        input.close();
     }
 
     public static void numberTypeChecker() {
