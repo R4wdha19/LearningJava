@@ -28,4 +28,8 @@ public class Arrays {
         }
     }
 
+    public static void swapEnds(){
+        int[] numbers = {1, 2, 3, 4, 5, 6};
+    }
+
 }
